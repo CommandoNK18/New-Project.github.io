@@ -324,19 +324,23 @@ footer{
   font-size: 0.8rem;
 }
 /* links*/
+.links-container{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
 .insta-icon{
-  position: relative;
-  margin-top: 0.1rem;
-  left: 65%;
-  
+  display: inline-block;
+  margin-right: 1rem;
 }
+
 .facebook-icon{
-  position: relative;
-  bottom: 2.7rem;
-  left: 75%;
+  display: inline-block;
+  margin-right: 0.3rem;
 }
+
 .linkdin-icon{
-  position: relative;
-  bottom: 6rem;
-  left: 83%;
+  display: inline-block;
+  margin-right: 0.3rem;
 }
