@@ -21,7 +21,6 @@
 </head> 
   
 <body> 
-  <nav>
     <div class="navbar"> 
       <div class="container nav-container">
         <input class="checkbox" type="checkbox" name="" id="" />
@@ -49,18 +48,30 @@
         </div>
       </div>
     </div> 
-  </nav>
   
-  <div class="main-section" >
+  
+  <div class="main-section">
     <div class="heading">
-          <h1>Constant Values</h1>
+          <h1>Percentage Error Calculator</h1>
     </div>
-    <div class="image">
-      <img src="Constant.jpg" height="850px" width="100%" >
+    <div class="perc-img">
+      <img src="Percentage-error.jpg" height="150px" width="100%">
+      <h5><br>Here,<br><br><br>
+      <u>Experimental Value</u>:- The Value calculated during experiment (By Student).<br><br><br><u>Standard Value</u>:-is usually a number (or value) that is regarded as true by the general public, scientists, mathematicians, etc.</h4>
     </div>
-    <div class="img-txt">
-      <h1>Use these values for doing calculations in your practicals</h1>
+    <div>
+  
+      <div class="input-val">
+     <input type="number" placeholder="Enter Experimental Value" class="exp-val">
+        <input class="std-val" placeholder="Enter Standard Value">
+        <button class="calculate-btn">Calculate</button>
+        <div class="result-box">
+          <h4>Percentage Error = </h4>
+         <div class="result">0%</div>
+        </div>
+      </div>
     </div>
+    
   </div>
   
   <footer>
