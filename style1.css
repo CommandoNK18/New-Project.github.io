@@ -51,6 +51,8 @@ nav,.navbar{
   border: black solid 1px;
   background: white;
   cursor: pointer;
+  height: 33px;
+  width: 33px;
 }
 .closeIcon.material-icons {
   display: none;
