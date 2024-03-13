@@ -146,13 +146,13 @@ exp-val{
   margin: 0.5rem;
 }
 .input-values{
-  background-color: #bb9f06;
+  background-color: #5aaa95;
 }
 .input-values input{
   margin: 1px;
 }
-.btn{
-  
+.draw{
+  background-color: #bb9f06;
 }
 .canvas-div{
   margin-top: 4px;
