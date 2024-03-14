@@ -39,9 +39,9 @@ const ctx = document.getElementById('myChart');
 const chart= new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple'],
+    labels: [0,1,2,3,4,5],
     datasets: [{
-      label: '# of Votes',
+      label: 'Graph',
       data: [12, 19, 3, 5, 7, 3],
       borderWidth: 1,
       backgroundColor: 'black',
